@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+.zagolovok{
+    font-size: 36px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.logo{
+    width: 80px;
+    height: 70px;
+    margin-top: -10px;
+    margin-left: auto;
+}
+.headertable{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.header{
+    height: 100px;
+    background-color:rgb(63, 62, 62);
+    margin-top: -17px;
+    color: white;
+}
+.headertablelink{
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+.headerlink{
+    background-color:rgb(109, 108, 108);
+    color: white;
+    height: 30px;
+    margin-top: -16px;
+    
+}
+.headerli{
+    padding-left: 40px;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 3px;
+}
+.ahead{
+    text-decoration: none;
+    color: white;
+    transition: color 0.25s ease;
+}
+.ahead:hover{
+    color: black;
+}
+.photosite{
+    width: 350px;
+    height: 250px;
+    transition: transform 0.4s ease;
+}
+.photosite:hover{
+    transform: scale(1.05);
+}
+.article{
+    display: flex;
+    width: 1000px;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.page{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.zagolovki{
+    text-decoration: none;
+    color: black;
+    transition: color 0.25s ease;
+}
+.zagolovki:hover{
+    color: lightblue;
+    text-decoration: underline;
+}
+.redh2{
+    color: rgb(199, 61, 95);
+}
+.page{
+    float: left;
+}
+.rightpage{
+    width: 400px;
+    float: right;
+    margin-right: 30px;
+    margin-top: -30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(199, 61, 95);
+}
+.alinkright{
+    text-decoration: none;
+    color: rgb(199, 61, 95);
+    font-size: smaller;
+    transition: color 0.5s ease;
+    transition: background-color 0.5s ease;
+}
+.alinkright:hover{
+    color: black;
+    background-color: lightgray;
+    text-decoration: underline;
+}
+.rightlist{
+    list-style-type: none;
+}
+.kontakt{
+    margin-top: 150px;
+}
+.kontaktinfo{
+    color: black;
+    font-size: 18px;
+}
+.copyright{
+    position: fixed;
+    clear: both;
+    background-color:rgb(109, 108, 108);
+    height: 30px;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    bottom: 0;
+    
+}
+.copyrighttext{
+    margin-left: 10px;
+}
+@media (max-width: 1430px){
+    .page,
+    .rightpage{
+        float: none;
+        width: 100%;
+    }
+    .rightpage{display: none;}
+}
